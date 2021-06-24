@@ -1,0 +1,68 @@
+.bghead{
+  background-color: black !important;
+}
+
+
+
+.contact_info {
+    background: #75c552;
+    padding-left: 50px;
+    padding-top: 10px;
+    text-align: left;
+   
+    color: white;
+}
+
+.contact_info i{
+    color: white;
+    font-size: 20px;
+    padding-right:50px ;
+    text-align: left;
+
+    }
+
+
+
+
+    @media screen and (min-width: 992px) {
+        .contact_info {
+          margin-bottom: -100px;
+        }
+      }
+
+
+
+/* //scroll icom */
+.sticky-social{
+    position:fixed;
+    top:32%;
+    left:-20px;
+    padding:0px;
+    margin:0px;
+    z-index: 9999;
+  }
+  .social{
+    list-style:none;
+  }
+  .social li{
+    padding:10px 10px;
+    font-size:25px;
+    transition:all 0.8s ease-in-out;
+  }
+  .social li:hover{
+      margin-right:-30px;
+   box-shadow:2px 5px 10px grey;
+  }
+  .social li:hover .fa{
+      margin-left:20px;
+    
+  }
+  .fa{
+    color:#fff;
+    transition:all 0.8s ease-in-out;
+  }
+
+ 
+  .socialIcons{
+    background: #75c552;
+  }
