@@ -1556,7 +1556,7 @@
 									</div>
 								</div>
 								<div class="vc_row wpb_row vc_inner vc_row-fluid">
-									<div class="wpb_column vc_column_container vc_col-sm-6 tradingspace vc_custom_1469880390211"
+									<div class="wpb_column vc_column_container vc_col-sm-6  vc_custom_1469880390211"
 										data-equalizer-watch>
 										<div class="wpb_wrapper">
 											<div
@@ -1565,12 +1565,57 @@
 												<figure class="wpb_wrapper vc_figure">
 
 
+
+													<div class="slideshow-container tradingImg">
+
+														<div class="mySlides fade">
+															<img src="image/computer.jfif" style="height:55vh; ">
+														</div>
+
+														<div class="mySlides fade">
+															<img src="image/c2.jpg" style="height:55vh;">
+														</div>
+
+														<div class="mySlides fade">
+															<img src="image/c3.jpg" style="height:55vh;">
+														</div>
+
+													</div>
+													<br>
+
+													<div style="text-align:center">
+														<span class="dot"></span>
+														<span class="dot"></span>
+														<span class="dot"></span>
+													</div>
+
+													<script>
+														var slideIndex = 0;
+														showSlides();
+
+														function showSlides() {
+															var i;
+															var slides = document.getElementsByClassName("mySlides");
+															var dots = document.getElementsByClassName("dot");
+															for (i = 0; i < slides.length; i++) {
+																slides[i].style.display = "none";
+															}
+															slideIndex++;
+															if (slideIndex > slides.length) { slideIndex = 1 }
+															for (i = 0; i < dots.length; i++) {
+																dots[i].className = dots[i].className.replace(" active", "");
+															}
+															slides[slideIndex - 1].style.display = "block";
+															dots[slideIndex - 1].className += " active";
+															setTimeout(showSlides, 2000); // Change image every 2 seconds
+														}
+													</script>
 												</figure>
 											</div>
 										</div>
 									</div>
 
-									<div class="wpb_column vc_column_container vc_col-sm-6 tradingspace"
+									<div class="wpb_column vc_column_container vc_col-sm-6 tradingcontent"
 										data-equalizer-watch>
 										<div class="wpb_wrapper">
 											<div class="boxes small layout-4 clearfix ">
